@@ -28,11 +28,28 @@ body {
     flex-direction: row;
     align-items: center;
     flex-grow: 1;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap :wrap ;
+    }
+
+    .contenuinsectes {
+        display : flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap : wrap ;
+
     }
 
         img {
-            display : block; 
+            display : block;
+        }
+
+        .continsect {
+            display : block;
+            width: 100px;
+            margin:10px;
+            border: 1px solid black;
         }
 
         #insectes {
